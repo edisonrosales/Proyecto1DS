@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="584.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.mainJ">
+    <children>
+        <Label fx:id="label" layoutX="191.0" layoutY="115.0" minHeight="16" minWidth="69" />
+      <Label fx:id="nomE" alignment="CENTER" contentDisplay="CENTER" layoutX="505.0" layoutY="48.0" prefHeight="35.0" prefWidth="207.0" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="280.0" fitWidth="735.0" layoutX="63.0" layoutY="241.0">
+         <image>
+            <Image url="@../media/principal.jpg" />
+         </image>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </ImageView>
+      <Button id="administracion" fx:id="administracion" layoutX="603.0" layoutY="118.0" mnemonicParsing="false" onMouseClicked="#Administrar" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #191919#191919;" text="Administración" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="Ventas" fx:id="Ventas" layoutX="66.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#RealizarVenta" prefHeight="40.0" prefWidth="151.0" style="-fx-background-color: #191919;" text=" Realizar venta" textFill="#f5f5f5" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="Clientes" fx:id="Clientes" layoutX="238.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#AgregarClientes" prefHeight="40.0" prefWidth="144.0" style="-fx-background-color: #191919;" text="Agregar Cliente" textFill="#f5f5f5" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="Consultas" fx:id="Consultas" layoutX="404.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#RealizarConsultas" prefHeight="40.0" prefWidth="182.0" style="-fx-background-color: #191919;" text="Consultas" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="ruta" fx:id="ruta" layoutX="291.0" layoutY="182.0" mnemonicParsing="false" onMouseClicked="#Rutas" prefHeight="32.0" prefWidth="127.0" style="-fx-background-color: #191919#191919;" text="Rutas" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="imprimir" fx:id="imprimir" layoutX="440.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#ImprimirDoc" prefHeight="35.0" prefWidth="133.0" style="-fx-background-color: #191919#191919;" text="Imprimir Doc." textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label id="fechaactual" fx:id="fechaactual" alignment="TOP_LEFT" layoutX="129.0" layoutY="72.0" prefHeight="30.0" prefWidth="198.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="empleado" fx:id="empleado" alignment="TOP_LEFT" layoutX="166.0" layoutY="58.0" prefHeight="22.0" prefWidth="175.0" text="Empleado">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="78.0" layoutX="35.0" layoutY="34.0" onMouseClicked="#CerrarSesion">
+         <image>
+            <Image url="@../media/cerrar.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

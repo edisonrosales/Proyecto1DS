@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="584.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.mainJ">
+    <children>
+      <ImageView fitHeight="585.0" fitWidth="868.0" layoutY="-2.0" opacity="0.43">
+         <image>
+            <Image url="@../media/ff.jpg" />
+         </image>
+      </ImageView>
+        <Label fx:id="label" layoutX="135.0" layoutY="113.0" minHeight="16" minWidth="69" />
+      <Label fx:id="nomE" alignment="CENTER" contentDisplay="CENTER" layoutX="584.0" layoutY="56.0" prefHeight="35.0" prefWidth="207.0" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="352.0" fitWidth="576.0" layoutX="267.0" layoutY="205.0">
+         <image>
+            <Image url="@../media/principal.jpg" />
+         </image>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="256.0" fitWidth="312.0" layoutX="537.0" layoutY="-32.0">
+         <image>
+            <Image url="@../media/foto.png" />
+         </image>
+      </ImageView>
+      <Button id="administracion" fx:id="administracion" layoutX="39.0" layoutY="389.0" mnemonicParsing="false" onMouseClicked="#Administrar" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: lightGray;" text="Administración" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="Ventas" fx:id="Ventas" layoutX="34.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#RealizarVenta" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #A2C1F0;" text=" Realizar venta" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="Clientes" fx:id="Clientes" layoutX="35.0" layoutY="271.0" mnemonicParsing="false" onMouseClicked="#AgregarClientes" prefHeight="40.0" prefWidth="186.0" style="-fx-background-color: lightGray;" text="Agregar Clientes" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="Consultas" fx:id="Consultas" layoutX="40.0" layoutY="333.0" mnemonicParsing="false" onMouseClicked="#RealizarConsultas" prefHeight="40.0" prefWidth="182.0" style="-fx-background-color: #A2C1F0;" text="Consultas" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="ruta" fx:id="ruta" layoutX="43.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#Rutas" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #A2C1F0;" text="Rutas" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="imprimir" fx:id="imprimir" layoutX="42.0" layoutY="506.0" mnemonicParsing="false" onMouseClicked="#ImprimirDoc" prefHeight="40.0" prefWidth="187.0" style="-fx-background-color: lightGray;" text="Imprimir Doc." textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Label id="fechaactual" fx:id="fechaactual" alignment="TOP_LEFT" layoutX="129.0" layoutY="72.0" prefHeight="30.0" prefWidth="198.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="empleado" fx:id="empleado" alignment="TOP_LEFT" layoutX="132.0" layoutY="100.0" prefHeight="22.0" prefWidth="175.0" text="NombredelEmpleado">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="78.0" layoutX="34.0" layoutY="59.0" onMouseClicked="#CerrarSesion">
+         <image>
+            <Image url="@../media/cerrar.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

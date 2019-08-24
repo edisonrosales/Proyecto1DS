@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.Stock_Local">
+   <children>
+      <Label id="fechaactual" fx:id="fechaactual" alignment="TOP_RIGHT" layoutX="393.0" layoutY="46.0" prefHeight="17.0" prefWidth="143.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="empleado" fx:id="empleado" alignment="TOP_RIGHT" contentDisplay="RIGHT" ellipsisString="" layoutX="364.0" layoutY="78.0" prefHeight="27.0" prefWidth="172.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="14.0" layoutY="11.0">
+         <image>
+            <Image url="@../media/foto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="regreso" fitHeight="27.0" fitWidth="36.0" layoutX="599.0" layoutY="29.0" onMouseClicked="#regreso">
+         <image>
+            <Image url="@../media/person.png" />
+         </image>
+      </ImageView>
+      <TextField id="busqueda" fx:id="busqueda" layoutX="416.0" layoutY="25.0" prefHeight="35.0" prefWidth="183.0" />
+      <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="78.0" layoutY="18.0">
+         <image>
+            <Image url="@../media/search.png" />
+         </image>
+      </ImageView>
+      <ComboBox id="ComboLugar" fx:id="ComboLugar" layoutX="146.0" layoutY="25.0" prefHeight="35.0" prefWidth="124.0" promptText="Lugar" />
+      <TableView id="tablaStock" fx:id="tablaStock" layoutX="18.0" layoutY="82.0" prefHeight="320.0" prefWidth="608.0">
+        <columns>
+            <TableColumn fx:id="idpro" prefWidth="77.0" text="id_produc" />
+          <TableColumn id="nombrePro" fx:id="nombrePro" prefWidth="96.0" text="nom_produc" />
+          <TableColumn id="stock" fx:id="stock" prefWidth="93.0" text="Stock" />
+            <TableColumn id="idlocal" fx:id="idlocal" text="Localidad" />
+            <TableColumn fx:id="direccion" prefWidth="141.0" text="Dirección" />
+            <TableColumn fx:id="lugar" prefWidth="147.0" text="Id_Lugar" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="idenlocal" layoutX="291.0" layoutY="29.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="txtstock" layoutX="247.0" layoutY="420.0" prefHeight="25.0" prefWidth="113.0" promptText="Disp." />
+      <Label fx:id="lblstock" alignment="BOTTOM_CENTER" layoutX="201.0" layoutY="423.0" text="Stock">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="insertar" fitHeight="42.0" fitWidth="42.0" layoutX="373.0" layoutY="414.0" onMouseClicked="#Modificar">
+         <image>
+            <Image url="@../media/Untitled-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="act" fitHeight="35.0" fitWidth="36.0" layoutX="421.0" layoutY="418.0" onMouseClicked="#actualizar">
+         <image>
+            <Image url="@../media/actual.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

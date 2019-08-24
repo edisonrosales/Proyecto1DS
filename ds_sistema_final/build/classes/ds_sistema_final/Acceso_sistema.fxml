@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.Acceso_sistema">
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="599.0" layoutX="-1.0" layoutY="-2.0" opacity="0.56" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/ff.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="219.0" fitWidth="241.0" layoutX="6.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/foto.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="174.0" fitWidth="495.0" layoutX="38.0" layoutY="36.0">
+         <image>
+            <Image url="@../media/welcom.png" />
+         </image>
+      </ImageView>
+        <Label fx:id="usuario" layoutX="240.0" layoutY="238.0" minHeight="16" minWidth="50.0" prefHeight="25.0" prefWidth="92.0" text="Usuario:">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font></Label>
+      <TextField id="txtusuario" fx:id="txtusuario" layoutX="354.0" layoutY="238.0" />
+      <Label fx:id="contra" layoutX="240.0" layoutY="285.0" minHeight="16" minWidth="50.0" prefHeight="25.0" prefWidth="114.0" text="Contraseña:">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Label>
+        <Button fx:id="button" cacheShape="false" graphicTextGap="0.0" layoutX="514.0" layoutY="285.0" onAction="#Login" prefHeight="17.0" prefWidth="38.0" textOverrun="LEADING_ELLIPSIS">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Button>
+      <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="522.0" layoutY="287.0" preserveRatio="true">
+         <image>
+            <Image url="@../media/avanzar.png" />
+         </image>
+      </ImageView>
+      <PasswordField id="txtcontra" fx:id="txtcontra" layoutX="354.0" layoutY="285.0" />
+    </children>
+</AnchorPane>

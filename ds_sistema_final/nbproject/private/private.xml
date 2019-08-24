@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/L_Compra/Compra.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Producto_F.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Rutas.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Pagos/Efectivo.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Ds_sistema_final.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/L_Compra/Detalle.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Cotizacion.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/BD/Conexion.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Gerente.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Persona.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Orden/OrdenMatriz.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Establecer_ruta.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Consulta.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Inventario/Matriz.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Orden/Orden.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/mainJ.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Usuario.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Bodega/Repartidor.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Cliente.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Acceso_sistema.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Canvas.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Pagos/TipoPago.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/controlador/CtrlAdm.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Bodega/Ruta.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Establecer_ruta.fxml</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/controlador/CtrlBodegaJ.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Acceso_sistema.fxml</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Orden/OrdenCliente.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Pagos/PagoVisa.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Bodega/Jefe.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Inventario/Stock.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Local/Vendedor.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Inventario/ad_producto.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/Inventario/Producto.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Proximamente.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/controlador/CtrlMaster.java</file>
+            <file>file:/Users/israel/NetBeansProjects/ds_sistema_final/src/ds_sistema_final/Users.java</file>
+        </group>
+    </open-files>
+</project-private>

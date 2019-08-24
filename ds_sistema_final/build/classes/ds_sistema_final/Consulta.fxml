@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.Consulta">
+   <children>
+      <ImageView fitHeight="351.0" fitWidth="513.0" layoutX="1.0" layoutY="-2.0" opacity="0.54">
+         <image>
+            <Image url="@../media/c.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="21.0" />
+      <Label alignment="CENTER" layoutX="130.0" layoutY="30.0" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: azure;" text="CONSULTAS" textFill="#0a327c">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Button id="Cventa" fx:id="Cventa" layoutX="75.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#ConsultarVentas" prefHeight="40.0" prefWidth="144.0" text="Ventas" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="CPedido" fx:id="CPedido" layoutX="308.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#ConsultarPedidos" prefHeight="40.0" prefWidth="144.0" text="Pedidos" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="CCliente" fx:id="CCliente" layoutX="75.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#ConsultarClientes" prefHeight="40.0" prefWidth="144.0" text="Clientes" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="CStock" fx:id="CStock" layoutX="308.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#ConsultarStock" prefHeight="40.0" prefWidth="144.0" text="Stock" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="CUsuario" fx:id="CUsuario" layoutX="75.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#ConsultarUsuario" prefHeight="40.0" prefWidth="144.0" text="Usuarios" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+      <Button id="CProductos" fx:id="CProductos" layoutX="308.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#ConsultarProductos" prefHeight="40.0" prefWidth="144.0" text="Productos" textOverrun="CLIP">
+         <font>
+            <Font name="Bell MT" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

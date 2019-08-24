@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.Producto_F">
+    <children>
+      <TableView id="tablaProductos" fx:id="tablaProductos" layoutX="38.0" layoutY="125.0" prefHeight="356.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="nombre" prefWidth="120.0" text="Nombre" />
+            <TableColumn fx:id="descripcion" prefWidth="67.0" text="Desc." />
+            <TableColumn fx:id="precio_Venta" text="P.Venta" />
+            <TableColumn fx:id="ccategoria" prefWidth="84.0" text="id_categoria" />
+          <TableColumn fx:id="id_producto" prefWidth="103.0" text="id_producto" />
+        </columns>
+      </TableView>
+      <TextField fx:id="busqueda" layoutX="307.0" layoutY="25.0" prefHeight="35.0" prefWidth="213.0" />
+      <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="106.0" layoutY="17.0">
+         <image>
+            <Image url="@../media/search.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="comboxbus" layoutX="173.0" layoutY="25.0" onMouseClicked="#Inicio" prefHeight="35.0" prefWidth="123.0" />
+      <TextField fx:id="txtprecio" layoutX="315.0" layoutY="71.0" prefHeight="25.0" prefWidth="113.0" promptText="venta" />
+      <Label fx:id="fecha" alignment="TOP_RIGHT" layoutX="481.0" layoutY="42.0" prefHeight="17.0" prefWidth="143.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="nomE" fx:id="nomE" alignment="CENTER" contentDisplay="RIGHT" ellipsisString="" layoutX="526.0" layoutY="29.0" prefHeight="27.0" prefWidth="63.0" text="Nom">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="68.0" fitWidth="76.0" layoutX="18.0" layoutY="8.0">
+         <image>
+            <Image url="@../media/foto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="insertar" fitHeight="44.0" fitWidth="52.0" layoutX="582.0" layoutY="20.0" onMouseClicked="#Modificar">
+         <image>
+            <Image url="@../media/Untitled-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="act" fitHeight="35.0" fitWidth="39.0" layoutX="570.0" layoutY="67.0" onMouseClicked="#actualizar">
+         <image>
+            <Image url="@../media/actual.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblprecio" alignment="BOTTOM_CENTER" layoutX="268.0" layoutY="76.0" text="Precio">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

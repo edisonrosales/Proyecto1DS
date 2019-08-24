@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ds_sistema_final.Rutas">
+   <children>
+      <TableView id="tablaRutas" layoutX="35.0" layoutY="89.0" prefHeight="278.0" prefWidth="528.0">
+        <columns>
+          <TableColumn id="IdRuta" fx:id="IdRuta" prefWidth="66.0" text="id_ruta" />
+          <TableColumn id="repartidor" fx:id="repartidor" prefWidth="137.0" text="repartidor" />
+            <TableColumn id="pedido" fx:id="pedido" prefWidth="98.0" text="num_pedido" />
+            <TableColumn id="status" fx:id="status" prefWidth="108.0" text="estado" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="64.0" fitWidth="74.0" layoutX="512.0" layoutY="14.0">
+         <image>
+            <Image url="@../media/foto.png" />
+         </image>
+      </ImageView>
+      <Button id="CrearRuta" fx:id="CrearRuta" layoutX="135.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#CrearRutass" prefHeight="28.0" prefWidth="128.0" text="Crear ruta" textOverrun="CLIP">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button id="FinRuta" fx:id="FinRuta" layoutX="284.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#FinalizarRutas" prefHeight="28.0" prefWidth="128.0" text="Finalizar ruta" textOverrun="CLIP">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
